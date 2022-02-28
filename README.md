@@ -53,3 +53,13 @@ Adicionar file loader
 ```
 npm install --save-dev file-loader
 ```
+
+## usando o npx uma variaçaõ do npm
+configurar o webpack criando package.json
+
+npx webpack --config webpack.config.js
+
+## instalando um servidor local host global em seu pc 
+para executar a pagina 
+
+npm install http-server --global
