@@ -1,6 +1,7 @@
 const path = require('path')
 const HtmlWebpack = require('html-webpack-plugin')
 const MiniCssExtract = require('mini-css-extract-plugin')
+
 module.exports = {
 
     entry: './src/index.js',
@@ -12,7 +13,7 @@ module.exports = {
 module: {
     rules: [
      { 
-         test: /\.(sa|c|sc|)ss$/, // Expressão regular - regex
+         test: /\.(sa|c|sc)ss$/i, // Expressão regular - regex
         use: [
             MiniCssExtract.loader,
             'css-loader',
