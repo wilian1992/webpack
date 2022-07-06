@@ -5,3 +5,13 @@ $font-default: Arial, Helvetica, sans-serif;
     color: $color-font;
     font-family: $font-default;
 }
+
+.container {
+    max-width: 1200px;
+    
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+}
