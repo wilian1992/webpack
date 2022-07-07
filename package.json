@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "- Empacotador de módulos JS\r - Utilizado por diversos frameworks modernos como o React, Angular...\r - Trabalha com o Node.js",
   "main": "webpack.config.js",
-  "private": "true",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
   },
   "repository": {
     "type": "git",
